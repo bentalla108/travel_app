@@ -1,6 +1,7 @@
 import { StyleSheet,FlatList } from 'react-native'
 import React from 'react'
-import { Slides } from '../../components'
+import Slides from '../../components/onboard/Slides'
+
 
 const Onboarding = () => {
     const slides =[
@@ -12,7 +13,7 @@ const Onboarding = () => {
         {
             id:2,
             image: require('../../assets/images/2.png'),
-            title : 'Discover th world'
+            title : 'Discover the world'
         },
         {
             id:3,

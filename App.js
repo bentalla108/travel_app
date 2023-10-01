@@ -36,7 +36,7 @@ if(!fontLoaded){
 <Stack.Navigator>
   <Stack.Screen name ='Onboarding' 
   component={Onboarding} 
-  options={{hearderShown : false}} 
+  options={{hearderShown : true}} 
     
   />
 </Stack.Navigator>

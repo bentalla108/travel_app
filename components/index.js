@@ -1,5 +1,11 @@
-import Slides from "./onboard/Slides";
+import ReusableBtn from "./Buttons/ReusableBtn";
+import HeightSpacer from "./Reusable/HeightSpacer";
+import WidthSpacer from "./Reusable/WidthSpacer";
+import ReusableText from "./Reusable/ReusableText";
 
-
-
-export {Slides}
+export  {
+    
+    ReusableBtn,
+    ReusableText,
+    HeightSpacer,
+    WidthSpacer}

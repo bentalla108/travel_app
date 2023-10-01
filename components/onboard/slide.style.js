@@ -8,6 +8,12 @@ const styles = StyleSheet.create(
     resizeMode :'cover',
     width: SIZES.width,
     height: SIZES.height
+   },
+   stack :{
+    position : 'absolute',
+    bottom: 0,
+    marginBottom:60,
+    marginHorizontal:20
    }
 
     }
